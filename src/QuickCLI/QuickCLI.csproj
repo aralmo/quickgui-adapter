@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>library</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>QuickCLI</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Aridane Alamo</Authors>
+    <Company>PushPilot</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="../../test/ConsoleAdapter.Tests" />
+    <InternalsVisibleTo Include="../QuickCLI" />
+  </ItemGroup>
+
+</Project>
